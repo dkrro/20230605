@@ -18,13 +18,23 @@ body{
 
     .twitter{
         position: absolute;
-        top: 4150px;
+        top: 4100px;
         left: 450px;
+    }
+
+    .twitter:hover{
+        scale: 1.05;
+        transition-duration: 0.5s;
+    }
+
+    .band:hover{
+        scale: 1.05;
+        transition-duration: 0.5s;
     }
 
     .band{
         position: absolute;
-        top: 4150px;
+        top: 4100px;
         left: 920px;
     }
 
@@ -193,26 +203,27 @@ body{
 }
 
 .eng_logo {
-    top: 20px;
+    scale: 0.8;
+    top: 8px;
     left: 30px;
     position: absolute;
     display:fixed;
 }
 .twitter_top{
-    top: 20px;
+    top: 15px;
     left: 1840px;
     position: absolute;
 }
 
 .band_top{
-    top:20px;
+    top:15px;
     left: 1780px;
     position: absolute;
 }
 
 .logo{
     position: relative;
-    top: 50px;
+    top: 60px;
     left: 450px;
     width: 80;
     z-index: 2;
@@ -264,7 +275,3 @@ body{
     display: block;
 }
 
-.left_img:hover{
-    display: none;
-    transition-duration: 0.5s;
-}
