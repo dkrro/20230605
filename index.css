@@ -1,0 +1,216 @@
+.section{
+    transition-duration: 5s;
+    width: 100%;
+    height: 980px;
+    margin:0 ;
+    padding: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    }
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("index_back.png");
+    }
+
+
+.world{
+    position: absolute;
+    top:3200px;
+    left: 250px;
+}
+
+
+
+.world_click{
+    position: absolute;
+    top: 3500px;
+    left: 410px;
+    z-index: 9;
+}
+
+.position{
+    position: absolute;
+    top: 3200px;
+    left: 570px;
+}
+
+.position_click{
+    position: absolute;
+    top: 3500px;
+    left: 730px;
+}
+
+
+.system{
+    position: absolute;
+    top:3200px;
+    left: 890px;
+}
+
+.system_click{
+    position: absolute;
+    top: 3500px;
+    left: 1050px;
+    z-index: 3;
+}
+
+
+
+.shadow{
+    position: absolute;
+    top: 3550px;
+    left: 330px;
+}
+
+.sns_top{
+    position: fixed;
+}
+.back_img{
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* .nav{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 99999;
+    position: fixed;
+
+} */
+
+.menu_box{
+    background-color: black;
+    position: fixed;
+    width: 300px;
+    color: white;
+    height: 100vh;
+    top: 0;
+    left: -300px;
+    z-index: 10;
+}
+
+.menu_btn{
+    left: 0px;
+    top: 100px;
+    position: fixed;
+    
+}
+
+
+
+.home_left{
+    width: 50%;
+    height: auto;
+}
+
+
+
+.notice_top{
+    top: -20px;
+    left: 80px;
+    position: relative;
+    display:inline;
+    
+}
+
+.world_top{
+    top: -20px;
+    left: 110px;
+    position: relative;
+    display:inline;
+    
+}
+.system_top{
+    top: -20px;
+    left: 140px;
+    position: relative;
+    display:inline;
+    
+}
+.story_top{
+    top: -20px;
+    left: 170px;
+    position: relative;
+    display:inline;
+    
+}
+
+.eng_logo {
+    top: 20px;
+    left: 30px;
+    position: absolute;
+    display:fixed;
+}
+.twitter_top{
+    top: 20px;
+    left: 1840px;
+    position: absolute;
+}
+
+.band_top{
+    top:20px;
+    left: 1780px;
+    position: absolute;
+}
+
+.logo{
+    position: relative;
+    top: 50px;
+    left: 450px;
+    width: 80;
+}
+
+.form_top{
+    position: relative;
+    top: 50px;
+    left: 730px;
+}
+
+.main_cut{
+    position: absolute;
+    top: 1970px;
+    left: 330px;
+    z-index: 9;
+}
+
+.form_back{
+    top:30px;
+    position: relative;
+    left:330px;
+    z-index: 1;
+}
+
+.container{
+    z-index: 999;
+}
+.form_btn{
+    top:1220px;
+    left: 430px;
+    position: absolute;
+    z-index: 9;
+}
+
+.form_check{
+    top: 1220px;
+    left: 1170px;
+    position: absolute;
+    z-index: 9;
+}
+
+
+.left_img{
+    top:300px;
+    left: 1650px;
+    position: absolute;
+}
